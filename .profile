@@ -17,3 +17,5 @@ alias sshlist="grep -w -i "Host" ~/.ssh/config | sed 's/Host//'"
 alias sshconfig="vim ~/.ssh/config"
 
 alias tgz='tar -zxvf'
+
+alias psqlc='sudo su - postgres -c psql'
