@@ -29,8 +29,7 @@ git_custom_status() {
   fi
 }
 
-PROMPT='%{$fg[cyan]%}[%{$reset_color%}%{$fg_bold[green]%}${user_host}%{$reset_color%}: %{$fg[cyan]%}%2~]$(git
-_custom_status)%{$reset_color%} '
+PROMPT='%{$fg[cyan]%}[%{$reset_color%}%{$fg_bold[green]%}${user_host}%{$reset_color%}: %{$fg[cyan]%}%2~]$(git_custom_status)%{$reset_color%} '
 #End of prompt options:
 # ($/#) %B$%b
 # 
