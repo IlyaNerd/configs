@@ -1,8 +1,3 @@
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-
-alias apt='sudo apt'
 alias h='history'
 alias hs='history | grep '
 
@@ -17,5 +12,10 @@ alias sshlist="grep -w -i "Host" ~/.ssh/config | sed 's/Host//'"
 alias sshconfig="vim ~/.ssh/config"
 
 alias tgz='tar -zxvf'
+alias tarc='tar -cvf'
 
 alias psqlc='sudo su - postgres -c psql'
+
+alias cp="cp -i"                                                # Confirm before overwriting something
+alias df='df -h'                                                # Human-readable sizes
+alias free='free -m'                                            # Show sizes in MB
